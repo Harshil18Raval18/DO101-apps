@@ -1,6 +1,6 @@
 const express = require('express');
 
-const app = express();
+const app = express(); // Yahan 'const' hona bahut zaroori hai
 
 
 
@@ -16,12 +16,13 @@ app.get('/mars', function(req, res) {
 
     res.send('Hello Sun !\n');
 
-});
+    });
 
 
 
-app.listen(8080, function () {
+    app.listen(8080, function () {
 
-    console.log('Example app listening on port 8080!');
+        console.log('Example app listening on port 8080!');
 
-});
+    });
+  
